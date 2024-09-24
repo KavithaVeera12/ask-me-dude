@@ -1,0 +1,235 @@
+
+.side-navbar {
+    width: 250px;
+    height: 600px;
+    
+    top: 0;
+    left: 100px;
+    background-color:ghostwhite;
+  }
+  
+  .side-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-navbar li {
+    padding: 10px;
+  }
+
+  .one a{
+    text-decoration: none;
+    color: black;
+  }
+  .side-navbar1 {
+    width: 250px;
+    height: 600px;
+    
+    top: 10px;
+    left: 0px;
+    background-color:ghostwhite;
+  }
+
+  
+
+  .add{
+    position: absolute;
+    
+  }
+  .img{
+    width: 250px;
+    text-align: center;
+
+    
+  }
+  .container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .one{
+    text-align: center;
+  }
+  .example1{
+  height: 100px;
+  width: 310px;
+  }
+  .example2 img{
+    width: 100%;
+    height: 500px;
+  }
+
+ .card:hover{
+  transform: scale(1.03);
+  
+ }
+ .card{
+  display: flex;
+  
+  justify-content: space-evenly;
+  border: solid 2px;
+
+ }
+ .card1{
+  padding: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+ }
+ .home{
+  background-color: black;
+  color: white;
+  text-align: center;
+
+ }
+ .val1{
+  
+  background-color: black;
+  margin-top: 40px;
+padding: 20px;
+
+  justify-content: space-evenly;
+ }
+ .pala{
+  background-image: linear-gradient(pink, orange);
+width: 500px;
+height: 650px;
+padding-right: 20px;
+
+
+color:black
+ }
+ .pala1{
+  background-image: linear-gradient(blue,pink);
+  width: 500px;
+  height:650px;
+  padding-right:20px;
+
+
+  color:black
+
+ }
+ .main{
+  padding: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  
+ }
+ .font{
+  font-size: large;
+ }
+.val2{
+  background-color: white;
+  color: black;
+
+  padding: 100px;
+}
+.val3{
+ font-size: small;
+}
+.val3:hover{
+  color: white;
+  
+}
+
+.a1{
+  background-image: linear-gradient(pink,orange);
+ 
+
+}
+.a2{
+  background-color:lightcyan;
+  font-size: 13px;
+
+}
+.k1{
+  width:400px;
+  margin-left: 10px;
+  height: 200px;
+}
+.sticky{
+  position: sticky;
+ 
+  
+}
+.v1{
+  margin: 10px;
+  height: 500px;
+
+}
+.v6{
+  width: 500px;
+  background-color: white;
+
+}
+.c1{
+  
+  font-size: medium;
+}
+.b1{
+  padding: 60px;
+}
+.c2{
+  font-size: 13px;
+}
+.l1{
+  padding: 70px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-gap: 10px; 
+}
+
+.grid-item {
+
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.parallelogram {
+	width: 500px;
+	height: 80px;
+	transform: skew(20deg);
+	background:orange;
+    
+    margin: 95px;
+    
+}
+.card5{
+  background-color: blueviolet;
+  height: 90px;
+  color: white;
+  padding: 30px;
+}
+.card2{
+  background-color: blue;
+  height: 90px;
+  color: white;
+  padding: 20px;
+}
+.card3{
+  background-color: orange;
+  height: 90px;
+  color: white;
+  padding: 20px;
+}
+.card4{
+  background-color: red;
+  height: 90px;
+  color: white;
+  padding: 20px;
+}
+
